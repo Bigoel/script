@@ -11,12 +11,12 @@ ulang="y"
 while [ $ulang = "y" ]
 do
 
-python 999dice.py -c 0
-python 999dice.py -c 0
-python 999dice.py -c 0
-python 999dice.py
+taraje-lua stake --dice
 
-x=60
+
+
+
+x=600
 while [ $x -gt 0 ]
 do
 sleep 1s
